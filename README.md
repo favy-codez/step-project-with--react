@@ -30,7 +30,14 @@ you can also use inline arrow functions directly in JSX if the logic is simple:
 
 3. **color highlight -** is an extenstion in VScode used for highlighting colors
 
-4.
-5.
-6.
+4. **How to write inline styling in JSX-** Inline styles in React are defined as an object where the property names are written in camelCase, and the values are strings
+```
+    <button
+    style={{ backgroundColor: "#7950f2", color: "#fff" }}>Previous
+    </button>
+```
+
+5. ** State -** refers to an object that holds data relevant to a component. It allows components to keep track of changing information and re-render the UI accordingly. Each React component can have its own state. When the state of a component changes, React automatically re-renders the component to reflect the updated state.
+
+6. ** Creating a state variable using useState -**
 
