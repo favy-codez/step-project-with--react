@@ -59,4 +59,34 @@ export default Counter;
 
 ```
 
-6. **Creating a state variable using useState -** 
+6. **Creating a state variable using useState -** the useState hook allows you to manage the state of your component
+
+```
+// Import the useState Hook
+import React, { useState } from 'react';
+
+const Counter = () => {
+    const [count, setCount] = useState(0);
+
+    // Function to handle the button click and increment the count
+    const handleIncrement = () => {
+        setCount(count + 1);
+    };
+
+    return (
+        <div>
+            <p>Count: {count}</p>
+            <button onClick={handleIncrement}>Increment</button>
+        </div>
+    );
+};
+
+export default Counter;
+
+```
+- state is the current state value.
+- setState is the function used to update the state.
+- Declare a state variable `count` with an initial value of 0
+- initialValue is the initial value of the state.
+- we should only update state using the setter function(setCount), not manually
+    
