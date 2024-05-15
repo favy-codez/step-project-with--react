@@ -38,8 +38,8 @@ you can also use inline arrow functions directly in JSX if the logic is simple:
 ```
 
 5. **State -** refers to an object that holds data relevant to a component. It allows components to keep track of changing information and re-render the UI accordingly. Each React component can have its own state. When the state of a component changes, React automatically re-renders the component to reflect the updated state. Updating state triggers React to re-render the component. So state alllows developers to
-1. Update the component's view by re-rendering it
-2. Persist local variables between renders - this means maintaining the state of those variables even when the component re-renders. In React, components can re-render for various reasons such as state changes, props changes, or parent component re-renders. During these re-renders, you want your component to retain certain values (local variables) across these renders. This is typically done using the useState hook in functional components or this.state in class components.
+- Update the component's view by re-rendering it
+- Persist local variables between renders - this means maintaining the state of those variables even when the component re-renders. In React, components can re-render for various reasons such as state changes, props changes, or parent component re-renders. During these re-renders, you want your component to retain certain values (local variables) across these renders. This is typically done using the useState hook in functional components or this.state in class components.
 Example -
 ```
     import React, { useState } from 'react';
