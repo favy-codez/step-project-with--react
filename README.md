@@ -37,7 +37,6 @@ you can also use inline arrow functions directly in JSX if the logic is simple:
     </button>
 ```
 
-5. ** State -** refers to an object that holds data relevant to a component. It allows components to keep track of changing information and re-render the UI accordingly. Each React component can have its own state. When the state of a component changes, React automatically re-renders the component to reflect the updated state.
+5. **State -** refers to an object that holds data relevant to a component. It allows components to keep track of changing information and re-render the UI accordingly. Each React component can have its own state. When the state of a component changes, React automatically re-renders the component to reflect the updated state.
 
-6. ** Creating a state variable using useState -**
-
+6. **Creating a state variable using useState -** 
