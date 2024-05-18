@@ -89,4 +89,4 @@ export default Counter;
 - Declare a state variable `count` with an initial value of 0
 - initialValue is the initial value of the state.
 - we should only update state using the setter function(setCount), not manually
-    
+7. React reacts to state changes by re-rendering the UI
