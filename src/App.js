@@ -19,6 +19,16 @@ function App() {
 
   function nextButton(){
     if (step < 3) setStep(step + 1);
+    // but if we want it to update twice. its always best practice to use a callback fxn when 
+    // we want to update state based on the current value of the state
+    
+    // if (step < 3) {
+    //   // instead of 
+    //   setStep(step + 1);
+    //   // we do this instead
+    //   setStep((s) => s + 1);
+    //   setStep((s) => s + 1);
+    // }
   }
 
   return (

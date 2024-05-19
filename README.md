@@ -90,3 +90,10 @@ export default Counter;
 - initialValue is the initial value of the state.
 - we should only update state using the setter function(setCount), not manually
 7. React reacts to state changes by re-rendering the UI
+8. Each component manages its own state, no matter how many times we render the component
+
+#### summary
+- Use state for any data that the component should keep track of over time. This is data that will change over time.
+- Use state for something in the component that is dynamic, so you want to update it when the state changes.
+- If you want to change the way a component looks, or the data it displays, **update its state** this is usually done by the event handler function
+- Do not use state for variables that should not trigger a re-render, it can cause unnecessary re-renders which can cause performance issue
